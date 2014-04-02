@@ -3,5 +3,5 @@ class kibana::params {
   $package_url   = "https://download.elasticsearch.org/kibana/kibana/kibana-${version}.tar.gz"
   $download_path = "/usr/share"
   $install_dir   = "kibana-${version}"
-  $install_path  = "${download_dir}/${install_dir}"
+  $install_path  = "${download_path}/${install_dir}"
 }
